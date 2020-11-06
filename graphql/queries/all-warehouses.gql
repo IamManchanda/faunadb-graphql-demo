@@ -1,0 +1,14 @@
+query AllWarehouses {
+  allWarehouses {
+    data {
+      _id
+      name
+      address {
+        street
+        city
+        state
+        zipCode
+      }
+    }
+  }
+}

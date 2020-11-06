@@ -1,0 +1,16 @@
+mutation {
+  updateWarehouse(
+    id: "281429417211724295"
+    data: {
+      name: "East"
+      address: {
+        street: "1 Corry Plaza"
+        city: "Stockton"
+        state: "CA"
+        zipCode: "95205"
+      }
+    }
+  ) {
+    _id
+  }
+}

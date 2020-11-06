@@ -1,0 +1,5 @@
+mutation DeleteWarehouse {
+  deleteWarehouse(id: "281429417211724295") {
+    _id
+  }
+}

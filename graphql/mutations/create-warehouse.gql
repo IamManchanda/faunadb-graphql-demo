@@ -1,0 +1,15 @@
+mutation CreateWarehouse {
+  createWarehouse(
+    data: {
+      name: "East"
+      address: {
+        street: "13 Pierstorff Drive"
+        city: "Washington"
+        state: "DC"
+        zipCode: "20220"
+      }
+    }
+  ) {
+    _id
+  }
+}
